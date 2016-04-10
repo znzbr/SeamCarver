@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/seamcarver.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div id="dropbox" class="panel panel-default">
+            <div class="panel-heading">Drop your image here or click on examples below, then try to resize window. Big images (width > 1000px) will be processed extremely slow</div>
+            <div class="panel-body">
+                <div id="canvas-holder" style="width:100%">
+                    <canvas id="canvas"></canvas>
+                </div>
+                <img style="display:none;" id="source" />
+            </div>
+        </div>
+        <span id="examples">
+            <img style="height:150px" src="examples/wallhaven-290866.png" />
+            <img style="height:150px" src="examples/wallhaven-2986.png" />
+            <img style="height:150px" src="examples/hl2_meinert.png" />
+            <img style="height:150px" src="examples/Broadway_tower_edit.png" />
+        </span>
+    </div>
+
+</body>
+</html>
